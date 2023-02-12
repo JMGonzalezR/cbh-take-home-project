@@ -9,7 +9,9 @@ const generateHash = (data) =>
 exports.deterministicPartitionKey = (event) => {
     if (!event) return TRIVIAL_PARTITION_KEY;
 
-    let candidate = event.partitionKey || generateHash(JSON.stringify(event));
+    const { partitionKey } = event;
+
+    let candidate = partitionKey || generateHash(JSON.stringify(event));
 
     if (typeof candidate !== "string") {
         candidate = JSON.stringify(candidate);
