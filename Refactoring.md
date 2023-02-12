@@ -9,3 +9,7 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+
+Want to add the test coverage here
+![Uploading Captura de Pantalla 2023-02-12 a la(s) 12.36.16 a. m..png…]()
